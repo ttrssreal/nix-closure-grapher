@@ -1,0 +1,17 @@
+{
+  "name": "nix-closure-grapher",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "tsc && webpack && python3 -m http.server 9999 -d dist"
+  },
+  "dependencies": {
+    "graphology": "^0.26.0",
+    "graphology-layout": "^0.6.1",
+    "graphology-layout-forceatlas2": "^0.10.1",
+    "sigma": "^3.0.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^6.0.1"
+  }
+}

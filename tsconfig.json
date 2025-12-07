@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "outDir": "build",
+  },
+
+  "exclude": [ "result" ],
+}
