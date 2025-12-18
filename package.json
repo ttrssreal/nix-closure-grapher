@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "serve": "tsc && webpack && python3 -m http.server 9999 -d dist"
+    "serve": "tsc && webpack && python3 -m http.server 9999 -d dist",
+    "build": "tsc && webpack"
   },
   "dependencies": {
     "datatables.net-bs5": "^2.3.5",

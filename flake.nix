@@ -23,6 +23,7 @@
         { pkgs, ... }:
         {
           devShells.default = pkgs.callPackage ./shell.nix { };
+          packages.default = pkgs.callPackage ./package.nix { };
 
           treefmt.programs = {
             nixfmt.enable = true;
